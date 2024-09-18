@@ -1,0 +1,95 @@
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: burlywood;
+    color: #3a2e2e;
+}
+/* Header section */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+/* Logo styling */
+.logo {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.logo img {
+    height: 40px; 
+    width: fit-content;/* Adjust the size of the logo */
+    margin-right: 10px; /* Space between logo image and text */
+}
+/* Navigation styling */
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 50px;
+    text-decoration: none;
+    color: #3a2e2e;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/* Content section styling */
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 40px;
+    padding-right: 150px;
+    padding-left: 150px;
+}
+
+/* Text section */
+.text {
+    max-width: 40%;
+    padding-top: -25px;
+}
+
+.text h1 {
+    font-size: 72px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.text p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.text button {
+    padding: 15px 30px;
+    background-color: #3a2e2e;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+/* Image section */
+.image {
+    max-width: 55%;
+    padding-top: 110px;
+}
+
+.image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.2);
+    
+}
